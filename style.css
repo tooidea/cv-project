@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+    font-family: "roboto", "sans-rerif";
+}
+.container{
+    max-width: 1000px;
+    background-color: blanchedalmond;
+    margin: 0px auto;
+    padding: 30px;
+    
+}
+header{
+
+}
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border: solid green;
+    border-radius: 60%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;}
+h1,h2,h3,h4,h5,h6{
+    color: rosybrown
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: turquoise;
+    font-weight: bold ;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color:tomato;
+}
+.div-clear{
+    clear:both;
+}
+.hr1{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+.left-div{
+    float: left;
+    width: 30%
+}
+.para{
+    float:left;
+    width: 70%
+}
+hr{
+    border: solid black 2px;
+    width: 100%;
+    margin: 10px auto;
+    border-bottom: none;
+}
+.bottom{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+
+}
+.bottom a{
+    color: white;
+    text-decoration: none;
+    margin: 20px
+}
+.bottom p{
+    color: white;
+    
+    margin: top 20px
+}
